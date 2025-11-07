@@ -1,9 +1,9 @@
 try:
-    # take inputs
+    print("Simple Calculator with Exception Handling")
     a = float(input("Enter The First Number: "))
     b = float(input("Enter The Second Number: "))
 
-    # menu
+    
     print("\nWhich Operation You Want To Perform:")
     print("1 = Add")
     print("2 = Subtraction")
@@ -30,7 +30,7 @@ except ValueError as ve:
     print("Error:", ve)
 
 except ZeroDivisionError as zd:
-    print("Error:", zde)
+    print("Error:", zd)
 
 except Exception as e:
     print("Unexpected Error:", e)
