@@ -24,12 +24,9 @@
 
 attendence_list=[]
 while True:
-    name=input('Enter The Name Of Student or type (finish) for final list :')
+    name=input('Enter The Name Of Student or type (finish)to Stop :')
     if name=='finish':
-        print("The Final List Of Students")
-        print(attendence_list)
-        
-
+        break
 
     if name in attendence_list:
         attendence_list.remove(name)
@@ -38,4 +35,10 @@ while True:
         attendence_list.append(name)
         print(f"The {name} Has Been Added Sucessfully")
     
+print("\nFinal Student List")
+if len(attendence_list)==0:
+    print("No Attendence record")
+else:
+    print(attendence_list)
 
+    

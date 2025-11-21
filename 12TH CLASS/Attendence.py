@@ -3,7 +3,7 @@ attendence_list=[]
 
 while True:
     name=input("Enter The Name Of Student (Type 'stop' to end ) : ")
-    if name.lower=='stop':
+    if name=='stop':
         break 
     if name in attendence_list:
         attendence_list.remove(name)
