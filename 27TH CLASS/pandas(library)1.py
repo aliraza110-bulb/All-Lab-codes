@@ -107,3 +107,19 @@ print()
 
 df=pd.DataFrame(data,index=pd.RangeIndex(5,8,name='index'))
 print(df)
+
+
+
+print("---------------------------------------------")
+print()
+
+
+df.iloc[1]
+print(df.iloc[1])
+
+
+print("---------------------------------------------")
+print()
+
+print(df.index)
+print(df.index.values)
