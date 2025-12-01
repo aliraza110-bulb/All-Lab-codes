@@ -94,5 +94,9 @@ def main():
 
 
 # Run the program
+<<<<<<< HEAD
 if __name__ == "__main__":
     main()
+=======
+cart()
+>>>>>>> 1184928beb89a58c4029b6ac5eaa87c95f5069e1
