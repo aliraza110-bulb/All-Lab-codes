@@ -1,4 +1,5 @@
-
+import seaborn as sns
+import matplotlib.pyplot as plt
 data=(101,"ali",3.9)
  
 roll,name,gpa=data
@@ -12,3 +13,4 @@ item,quantiity,price=nested_tupple
 print("Item:",item)
 print("Quantity:",quantiity)
 print("Price:",price)
+
