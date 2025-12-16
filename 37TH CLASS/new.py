@@ -1,26 +1,37 @@
-class person:
-    def __init__(self,name):
-        self.name=name
+class Person:
+    def __init__(self, name):
+        self.name = name
 
-class student(person):
+    def role(self):
+        print(self.name, "has no specific role")  
+
+class Student(Person):
     def study(self):
-        print(self.name,"IS Studying")
+        print(self.name, "is studying")
 
+    def role(self): 
+        print(self.name, "is a student")
 
-class teacher(person):
+class Teacher(Person):
     def study(self):
-        print(self.name,"IS Studying")
-    def role (self):
-        print("Teaching conduct the class")
+        print(self.name, "is studying")
 
-class monitor(student,teacher):
+    def role(self):
+        print(self.name, "teaches the class")
+
+class Monitor(Student, Teacher):
     def manage(self):
-        print(self.name,"Is managing class")
+        print(self.name, "is managing the class")
+
+    def role(self): 
+        print(self.name, "is a monitor")
+
 
 def describe_role(obj):
     obj.role()
-describe_role(student("kamran"))
-describe_role(teacher("kamran"))
 
 
+describe_role(Student("Kamran"))
+describe_role(Teacher("Ali"))
+describe_role(Monitor("Sara"))
 

@@ -83,10 +83,3 @@ import matplotlib.pyplot as plt
 
 plt.plot([1,2,3,4],[4,5,6,7])
 plt.show()
-
-
-arr=np.array([1,2,35])
-print(arr)
-
-plt.plot([1,235],[34,65,67])
-plt.show()

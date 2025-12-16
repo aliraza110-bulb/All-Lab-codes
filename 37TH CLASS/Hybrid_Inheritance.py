@@ -13,3 +13,5 @@ class teacher(person):
 class monitor(teacher):
     def monitor(self):
         print(self.name,"Is Managing Class")
+
+        
