@@ -7,3 +7,6 @@ Hdl=int(data[data.index("HDL=")+4 : data.index("mg" , data.index("HDL="))])
 Ldl=int(data[data.index("LDL=")+4 : data.index( "mg" ,  data.index("LDL="))])
 
 print(chol,Hdl,Ldl)
+
+
+#incomplte do convertio  of mg to mmol
