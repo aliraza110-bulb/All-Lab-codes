@@ -7,6 +7,6 @@ class employee:
         print("Name : ",self.name,"Salary : ",self.__salary)
 
 emp = employee("jessa",10000)
-print("name",emp.name,"Salary",emp.employee__salary)
+print("name",emp.name,"Salary",emp._employee__salary)
 
 emp.show()
