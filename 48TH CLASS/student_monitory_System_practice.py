@@ -30,3 +30,6 @@ print(df)
 
 print("\n Student on probation : \n", df[df["status"]=='probation'])
 print("\n Category count : \n", df['status'].value_counts())
+
+print(df.loc[df['gpa'].idxmax()])
+print(df[subjects].mean)
